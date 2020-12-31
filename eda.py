@@ -42,3 +42,4 @@ st.pyplot()
 st.subheader("Heatmap")
 sns.heatmap(tips.corr(),cmap='coolwarm',annot=True)
 st.pyplot()
+
