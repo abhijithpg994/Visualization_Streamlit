@@ -12,7 +12,8 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("Tips_Dataset")
 
 #import dataset
-df = pd.read_csv('tips.csv')
+#df = pd.read_csv('https://github.com/mwaskom/seaborn-data/blob/master/tips.csv')
+df = sns.load_dataset('tips')
 #First thirty rows
 tips = df.head(30)
 #Display the table
